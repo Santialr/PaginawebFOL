@@ -1,0 +1,122 @@
+body { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: aliceblue;
+    padding-left: 0px;
+    font-family:'Times New Roman';
+    margin: 0px;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #8392FE;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+button {
+    margin-top: 10px;
+
+}
+
+footer {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: #8392FE;
+  }
+  
+.container {
+    padding-top: 30px;
+}  
+.cuerpo {
+    text-align: justify;
+    padding-left: 25px;
+}
+aside {
+    flex: 1;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8392FE; 
+    color: black; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.boton:hover {
+    background-color: #8392FE; 
+}
+
+.video-container {
+    position: relative;
+    width: 750px;
+    padding-bottom: 1%; 
+    overflow: hidden;
+    margin-bottom: 20px; 
+    padding-left: 115px;
+}
+
+.video-container iframe {
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 500px;
+}
+
+ 
